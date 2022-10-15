@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Playfair+Display:wght@500&display=swap');
+
+
+body {
+    background-color: rgb(76, 141, 232);
+
+    font-family: "Playfair Display", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    font-family: 'Lato';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.home-title {
+    color: blue
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+h4 {
+    color: blueviolet;
+    font-family: 'Lato', 'Courier New', Courier, monospace;
+}
+
+.book,
+.join {
+    color: chartreuse;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.book:hover,
+.join:hover {
+    color: brown;
+}
+
+.msg {
+    background-color: #0c6dc2;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: coral;
+}
+
+.msg p {
+    color: darkblue;
+    padding-bottom: 15px;
+}
+
+header {
+    background-color: rgba(189, 196, 172, 0.7);
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: cornsilk;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.book,
+.join {
+    background-color: wheat;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+    background-color: powderblue;
+}
+
+.msg {
+    background-color: antiquewhite;
+}
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+    color: rgb(112, 230, 230);
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border-width: 10px;
+    border-color: black;
+}
