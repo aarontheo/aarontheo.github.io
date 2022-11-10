@@ -53,10 +53,16 @@ body {
 }
 img {
   display: block;
-  margin: 0 auto;
+  margin: 5% auto 5%;
+  max-width: 30%;
 }
 .logo {
-    width: 100%;
+  max-width: 100%;
+}
+
+#markdown-plan *{
+  margin: 1% auto;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,7 +89,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
