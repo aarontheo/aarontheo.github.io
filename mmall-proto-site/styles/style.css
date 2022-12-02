@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@500;600&display=swap');
+
+/* Fonts:
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+*/
+
+/* MMall Charcoal:
+#34495e - default
+#24394e - dark
+#14293e - darker 
+#86BBD8 - accent
+#F5E9E2 - background/base
+*/
+
+:root {
+    /* change the values below to your colors from your palette */
+    --mmall-charc1: #34495e   ;
+    --mmall-charc2: #24394e ;
+    --mmall-charc3: #24394e;
+    --mmall-slate1: #396E94;
+    --mmall-slate2: #86BBD8;
+    --base-color: #F5E9E2;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Raleway',"IM Fell French Canon SC";
+    --paragraph-font: 'Montserrat', Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: --mmall-slate1;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: --mmall-slate1; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: --mmall-slate1;
+    --nav-link-color: var(--mmall-slate2);
+    --nav-background-color: var(--mmall-charc1);
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: var(--mmall-slate1);
+  }
+
+* {
+    outline: 2px dashed green;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    margin: 30px 10px 50px;
+    height: 3em;
+    outline: 3px solid blue;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: 10px;
+    align-items: center;
+}
+
+#header img {
+    height: 3em;
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+#nav-buttons {
+    outline-color: purple;
+    margin: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+}
+
+.nav-button{
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+}
+
+.nav-button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+#page-content {
+    width:100%;
+}
