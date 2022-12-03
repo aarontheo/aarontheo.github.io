@@ -135,6 +135,15 @@ a {
     display: grid;
 }
 
+.label {
+    justify-self: center;
+    width: fit-content;
+    margin-bottom: 3em;
+    font-size: x-large;
+    padding: 10px;
+    border: 2px solid var(--mmall-charc1);
+}
+
 /* HERO BOX */
 
 #hero-box {
