@@ -67,6 +67,7 @@ a {
     /* outline: 3px solid blue; */
     margin: 2em 6em;
     height: 3em;
+    padding: auto 5px;
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     column-gap: 10px;
@@ -85,6 +86,8 @@ a {
 
     /* height:max-content; */
     margin: auto;
+    width: fit-content;
+    padding: auto 10px;
     grid-column-start: 3;
     grid-column-end: 4;
     display: flex;
@@ -93,7 +96,6 @@ a {
 }
 
 #nav-buttons a {
-    max-width: 100px;
     padding: 1em;
     /* text-align: center;
     vertical-align: middle; */
@@ -113,6 +115,8 @@ a {
 /* FOOTER */
 
 #footer {
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     height: fit-content;
     background-color: var(--mmall-charc1);
@@ -152,7 +156,7 @@ a {
 /* HERO BOX */
 
 #hero-box {
-    border: 3px dotted green;
+    /* border: 3px dotted green; */
     max-width: 100%;
     display: grid;
     grid-template-rows: repeat(4, 10em);
@@ -288,4 +292,52 @@ a {
     color: var(--mmall-charc3);
     border-color: var(--mmall-charc3);
     transition: 0.1s;
+}
+
+/* STUFF FOR FAQ PAGE */
+
+.QA {
+    justify-content: left;
+    width: 60%;
+}
+
+.QA h3 {
+    padding: 10px;
+    background-color: var(--mmall-charc3);
+    color: white;
+    width: fit-content;
+}
+
+/* STORE LOCATIONS */
+
+#store-locations { 
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 5em; */
+    justify-content: space-evenly;
+}
+
+.location {
+    text-align: center;
+    width: 15em;
+}
+
+.store-img-container {
+    height: 15em;
+    width: 100%;
+    margin: auto auto;
+}
+
+.location img {
+    justify-self: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15em;
+    /* max-width: 100%; */
+}
+
+#customer-service {
+    margin: 1em auto;
 }
