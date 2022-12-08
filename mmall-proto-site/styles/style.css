@@ -282,16 +282,16 @@ a {
     /* object-fit: contain; */
 }
 
-.featured-product img:hover {
+.featured-product:hover img {
     filter: blur(2px);
-    transition: filter 0.1s;
+    transition: filter 0.5s;
+    z-index: -1;
 }
 
-.featured-product div:hover {
-    z-index: -1;
-    color: var(--mmall-charc3);
-    border-color: var(--mmall-charc3);
-    transition: 0.1s;
+.featured-product:hover div {
+    color: var(--mmall-slate2);
+    border-color: var(--mmall-slate2);
+    transition: 0.5s;
 }
 
 /* STUFF FOR FAQ PAGE */
