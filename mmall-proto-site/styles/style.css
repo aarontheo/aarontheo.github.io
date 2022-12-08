@@ -28,15 +28,15 @@
     --paragraph-font: 'Montserrat', Helvetica, sans-serif;
 
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: --mmall-slate1;
+    --headline-color-on-white: var(--mmall-slate1);
     /* headlines on a white background */
     --headline-color-on-color: white;
     /* headlines on a colored background */
-    --paragraph-color-on-white: --mmall-slate1;
+    --paragraph-color-on-white: var(--mmall-slate1);
     /* paragraph text on a white background */
     --paragraph-color-on-color: white;
     /* paragraph text on a colored background */
-    --paragraph-background-color: --mmall-slate1;
+    --paragraph-background-color: var(--mmall-slate1);
     --nav-link-color: var(--mmall-slate1);
     --nav-background-color: var(--base-color);
     --nav-hover-link-color: white;
@@ -67,7 +67,7 @@ a {
     /* outline: 3px solid blue; */
     margin: 2em 6em;
     height: 3em;
-    padding: auto 5px;
+    padding: 0 5px;
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     column-gap: 10px;
@@ -87,7 +87,7 @@ a {
     /* height:max-content; */
     margin: auto;
     width: fit-content;
-    padding: auto 10px;
+    padding: 0 10px;
     grid-column-start: 3;
     grid-column-end: 4;
     display: flex;
