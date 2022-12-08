@@ -41,6 +41,8 @@
     --nav-background-color: var(--base-color);
     --nav-hover-link-color: white;
     --nav-hover-background-color: var(--mmall-slate1);
+
+    --transition-time: 0.2s;
 }
 
 * {
@@ -110,6 +112,7 @@ a {
 #nav-buttons a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+    transition-duration: 0.2s;
 }
 
 /* FOOTER */
@@ -186,10 +189,10 @@ a {
     transition: filter 0.75s;
 } */
 
-#calltoaction:hover {
+#hero-box:hover a {
     color: var(--mmall-slate1);
     border-color: var(--mmall-slate2);
-    transition: 0.25s;
+    transition-duration: var(--transition-time);
 }
 
 
